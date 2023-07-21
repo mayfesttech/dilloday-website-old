@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+#aboutdillopage {
+    background-color: inherit;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    align-items: center;
+}
+
+
+.aboutdillo-title {
+    padding: 2rem 0 1rem 0;
+    color: white;
+    font-size: 3.75rem;
+}
+header {
+    width: 65%;
+}
+#main-image {
+    width: 100%;
+}
+#main-image img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    color: white;
+    width: 65%;
+}
+
+main p {
+    text-align: left;
+    font-size: 1.0625rem;
+    margin: 1rem 0 2rem 0;
+}
+
+main h2 {
+    font-size: 1.875rem;
+    margin: 0 0 -1rem 0;
+}
+
+.year-lineup {
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.year-link {
+    text-decoration: underline;
+    font-size: 1.56rem;
+    font-weight: lighter;
+}
+
+.lineup-artist {
+    font-size: 1.0625rem;
+}
+
+#y2021 {
+    color: #1ED057;
+}
+
+#y2020 {
+    color: #ff41ef;
+}
+
+#y2019 {
+    color: #75dee3;
+}
+
+#y2018 {
+    color: #fed6f0;
+    
+}
+
+#y2017 {
+    color: #7b54f9;
+}
+
+#y2016 {
+    color: #00e052;
+}
+#y2015 {
+    color: #ffffff;
+}
+#y2014 {
+    color: #f09454;
+}
+
+#y2013 {
+    color: #a60303;
+}
+
+#y2012 {
+    color: #bee9f9; 
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        width: 80%;
+    }
+    main p {
+        font-size: 0.8rem;   
+    }
+    h1 {
+        font-size: 1.8rem;
+        padding: 1rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    main {
+        width: 80%;
+    }
+    main p {
+        font-size: 0.7rem;   
+    }
+    h1 {
+        font-size: 1.5rem;
+        padding: 1rem 0 0 0;
+    }
+    
+    main h2 {
+        font-size: 1rem;
+    }
+
+    .year-link {
+        font-size: 1rem;
+    }
+    .year-lineup {
+        font-size: 0.8rem;
+    }
+}
+

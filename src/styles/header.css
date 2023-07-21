@@ -1,0 +1,78 @@
+.navbar-expand-lg{
+    color: #FFFFFF;
+}
+
+nav .navbar-nav li{
+  padding-right: 10px;
+}
+
+.navbar .navbar-nav li a{
+  color: #888888;
+  font-size: 14px;
+}
+
+.trans-navbar .navbar-nav li a{
+    color: #F6FFFD;
+    font-size: 2rem;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    font-family: inherit;
+}
+
+.trans-navbar .navbar-nav li {
+    padding: 0 1rem;
+}
+
+nav .navbar-nav li a:hover{
+    color: white !important;
+}
+
+.navbar-brand {
+	color: white;
+}
+
+a:hover {
+	color: gray;
+}
+
+.navbar-brand b{
+    color: white;
+
+}
+.dillo-icon{
+  width: 10%;
+  min-width: 70px;
+  max-width: 80px;
+  position: relative;
+  z-index: 20;
+}
+.navbar{
+  padding: 36px 0 !important;
+}
+.trans-navbar{
+  background-color: none;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.navbar-nav{
+  float: right;
+  text-indent: 0;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.logo-wrap{
+  float: left;
+  width: 10% !important;
+  margin-left: 4%;
+}
+
+.showList {
+  background-image: url("https://i.imgur.com/IaREssH.jpg");
+  z-index: 100;
+  overflow-x: hidden;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}

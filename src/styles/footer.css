@@ -1,0 +1,44 @@
+
+/* .table{
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+
+img{
+    display: inline;
+    padding: 4px;
+    width: 50px;
+}
+.social{
+  margin: 0 1rem;
+  height: 30px;
+  width: 30px;
+  display: inherit;
+  justify-content: inherit;
+}
+.insta-social{
+  margin: -5px 0 0 0;
+  height: 40px;
+  width: 40px;
+  padding: none;
+
+}
+.social-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+} */
+.footer-icon{
+  color: white;
+  width: 20px;
+  margin: 20px;
+}
+.social-footer > a{
+  margin-bottom: 40px;
+}
+.social-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

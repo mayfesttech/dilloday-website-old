@@ -1,0 +1,21 @@
+.sponsorcontainer{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 70%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.sponsortext{
+    margin-left: 5%;
+    margin-right: 5%
+    
+}
+.pastsponsors{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.email-link {
+    color: #1c7e87
+}
